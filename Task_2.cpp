@@ -1,9 +1,10 @@
 ﻿#include <iostream>
+//#include <cstdint>
 using namespace std;
 
 struct Client_information
 {
-    __int64 account_number = 0;
+    int64_t account_number = 0;
     string owners_name;
     int balance = 0;
 };
