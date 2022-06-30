@@ -13,21 +13,20 @@ int main()
 {
     setlocale(LC_ALL, "Rus");
 
-    Client_information i_info;
-    Client_information* info = &i_info;
-    info->account_number = 0;
-    info->owners_name;
-    info->balance;
+    Client_information info;
+    info.account_number = 0;
+    info.owners_name;
+    info.balance;
 
     cout << "Введите номер счёта :" ;
-    cin >> info->account_number;
+    cin >> info.account_number;
     cout <<  "Введите имя владельца :";
-    cin >> info->owners_name;
+    cin >> info.owners_name;
     cout << "Введите баланс :" ;
-    cin >> info->balance;
+    cin >> info.balance;
     cout << "Введите новый баланс :";
-    cin >> info->balance;
-    cout << "Ваш счёт :" << info->owners_name << ", " << info->account_number << ", " << info->balance << endl;
+    cin >> info.balance;
+    cout << "Ваш счёт :" << info.owners_name << ", " << info.account_number << ", " << info.balance << endl;
 
 
     return 0;
