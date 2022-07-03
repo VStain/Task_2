@@ -21,7 +21,6 @@ int main()
     setlocale(LC_ALL, "Rus");
 
     Client_information info;
-    info.account_number = 0;
     int new_balance = 0;
 
     cout << "Введите номер счёта :" ;
